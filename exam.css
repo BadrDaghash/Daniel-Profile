@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+
+.mont-font {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.h5-font {
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.h5-font-f {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.main {
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(pics/bg.jpg);
+}
+
+
+
+/*main css*/
+.main-h5 {
+    margin-top: 10%;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.h1-family {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 18px;
+    font-weight: 800;
+    color: #f4f4f4;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    animation: type 10s infinite;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+
+@keyframes type {
+    0% {
+        content: "|";
+    }
+
+    3% {
+        content: "D|";
+    }
+
+    5% {
+        content: "De|";
+    }
+
+    7% {
+        content: "Dev|";
+    }
+
+    10% {
+        content: "Deve|";
+    }
+
+    13% {
+        content: "Devel|";
+    }
+
+    15% {
+        content: "Develo|";
+    }
+
+    17% {
+        content: "Develop|";
+    }
+
+    24% {
+        content: "Develope|";
+    }
+
+    25% {
+        content: "Developer|";
+    }
+
+    27% {
+        content: "Developer|";
+    }
+
+    30% {
+        content: "Developer|";
+    }
+
+    35% {
+        content: "Develope|";
+    }
+
+    37% {
+        content: "Develop|";
+    }
+
+    40% {
+        content: "Develo|";
+    }
+
+    42% {
+        content: "Devel|";
+    }
+
+    45% {
+        content: "Deve|";
+    }
+
+    47% {
+        content: "Dev|";
+    }
+
+    50% {
+        content: "De|";
+    }
+
+    52% {
+        content: "Des|";
+    }
+
+    55% {
+        content: "Desi|";
+    }
+
+    57% {
+        content: "Desig|";
+    }
+
+    60% {
+        content: "Design|";
+    }
+
+    62% {
+        content: "Designe|";
+    }
+
+    65% {
+        content: "Designer|";
+    }
+
+    67% {
+        content: "Designer|";
+    }
+
+    70% {
+        content: "Designe|";
+    }
+
+    72% {
+        content: "Design|";
+    }
+
+    75% {
+        content: "Desig|";
+    }
+
+    77% {
+        content: "Desi|";
+    }
+
+    80% {
+        content: "De|";
+    }
+
+    82% {
+        content: "Lar|";
+    }
+
+    85% {
+        content: "Larry|";
+    }
+
+    87% {
+        content: "Larry D|";
+    }
+
+    90% {
+        content: "Larry Da|";
+    }
+
+    92% {
+        content: "Larry Dan|";
+    }
+
+    95% {
+        content: "Larry Dani|";
+    }
+
+    97% {
+        content: "Larry Daniels|";
+    }
+
+    100% {
+        content: "Larry Daniels|";
+    }
+}
+
+.icon-1 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.about-btn .btn-dark:hover {
+    content: '';
+    background-color: white;
+    color: #1c1c1c;
+}
+
+
+.about-btn .btn-light:hover {
+    content: '';
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.img-hero {
+
+    position: relative;
+    width: 90%;
+}
+
+.h3-back::after {
+    content: " ";
+    width: 16%;
+    height: 30%;
+    position: absolute;
+    left: 42%;
+    bottom: -5px;
+    background-image: url('pics/dots.png');
+
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.img-hero::after {
+    content: " ";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    background-image: url('pics/dots.png');
+
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.icon-T {
+    width: 80px;
+    height: 60px;
+    padding-top: 20px;
+    background-color: #f4f4f4;
+
+
+}
+
+.header-family {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.tables-family {
+    font-family: "Montserrat", sans-serif;
+}
+
+.services-T .section1:hover i {
+    content: '';
+    color: white;
+    transition-delay: 0.1s;
+}
+
+.services-T .section1:hover .icon-T {
+    content: '';
+    background-color: black;
+    transition-delay: 0.1s;
+}
+
+
+.portfolio .layer {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 7px;
+    left: 9px;
+
+    opacity: 0;
+    transition: 1s;
+
+
+}
+
+.team-main .layer-card {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 7px;
+    left: 9px;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.team-main .card-img-top:hover .layer-card {
+    opacity: 1;
+}
+
+.portfolio .inner-img:hover .layer {
+    opacity: 1;
+}
+
+.card-img-top {
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.card-img-top:hover img {
+    transform: scale(1.2);
+
+}
+
+.contact-t .contact1:hover i {
+    content: '';
+    color: white;
+    transition-delay: 0.1s;
+}
+
+.contact-t .contact1:hover .icon-T {
+    content: '';
+    background-color: black;
+    transition-delay: 0.1s;
+}
+
+@media (min-width:701px){
+    h1{
+        padding-right: 28%;
+    }
+}
+
+@media (max-width: 700px){
+    h1{ 
+        padding-right: 50%;
+        font-weight: 400;
+        font-size: 10px;
+
+    }
+
+    h1::after {
+        content: '';
+        position: absolute;
+        animation: type 10s infinite;
+        padding-left: 5px;
+        font-weight: 400;
+        font-size: 50px;
+        padding-top: 12px;
+    }
+}
+
